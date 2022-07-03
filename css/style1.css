@@ -151,11 +151,14 @@ cursor: pointer;
   
   height: 100%;
   width: 70%;
-  font-size: 30px;
+ 
+  
 }
+
 
 .butb{
   color: blue;
+ 
 }
 
 .butb a{
@@ -167,16 +170,24 @@ cursor: pointer;
 
 @media screen and (min-width:320px){
 
-  .lef img{
-    width: 100%;
-    height: 5%;
-    
-  }
+.rig{
+  
+  height: 100%;
+  width: 70%;
+  overflow-y: scroll;
+  
 
+  
+}
+p{
+  font-size: 15px;
+}
+.butb img{
+  color: blue;
+  padding-top: 50px;
+ 
+}
 
-  .rig{
-    font-size: 13px;
-  }
   .hed{
     background-color: #77BEFF;
     border-radius: 10px  10px 0px 0px;
@@ -273,13 +284,36 @@ cursor: pointer;
 
 @media screen and (min-width:520px){
 
+ 
+  .rig{
+    
+    height: 100%;
+    width: 70%;
+    overflow-y: auto;
+ 
+  }
+  p{
+    font-size: 15px;
+  }
+  .butb img{
+    color: blue;
+    padding-top: 50px;
+   
+  }
+  .butb{
+    margin-top:-100px;
+  }
+
+  
+
+.rig p{
+  font-size: large;
+}
   .lef img{
     width: 100%;
     height: 5%;
-    
-  }
-  .rig{
-    font-size: large;
+
+  
   }
 
   .lft{
@@ -296,6 +330,7 @@ cursor: pointer;
     display: grid;
     grid-template-columns: [first] 20% [line2] 80%;
     font-size: small;
+    
   
   }
   .rgt{
@@ -309,7 +344,8 @@ cursor: pointer;
     display:block;
     background-color: grey;
     margin-bottom: 10px;
-    font-size: 20px;
+    
+    
     
   }
 
@@ -453,7 +489,7 @@ body{
 
 
 
-}
+
 
 
 
